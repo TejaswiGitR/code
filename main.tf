@@ -17,7 +17,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "Rg2" {
   name     = "rgname"
-  location = "rglocation"
+  location = "EASTUS"
 }
 
 
